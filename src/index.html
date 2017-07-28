@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Getty Popunder</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<section>
+    <form id="query">
+        <input type="text" v-model="phrase" placeholder="Where to?" :disabled="ui.isSearching">
+        <button type="submit" v-on:click="search" value="Search" :disabled="ui.isSearching">Search</button>
+        <p>{{ image.title }}</p>
+    </form>
+</section>
+<script src="/js/vue/vue.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>

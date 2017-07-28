@@ -1,0 +1,19 @@
+{
+  "name": "getty-popunder",
+  "version": "1.0.0",
+  "description": "A prototype for displaying getty background images by city.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./node_modules/http-server/bin/http-server ./src -c-1"
+  },
+  "keywords": [
+    "getty"
+  ],
+  "author": "Dave Artz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "nodemon": "^1.11.0",
+    "vue": "^2.4.1"
+  }
+}
